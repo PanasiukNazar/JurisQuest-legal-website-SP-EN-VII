@@ -235,6 +235,13 @@ h6 {
     color: var(--accent-color);
 }
 
+@media (max-width: 772px) {
+    .header .topbar .contact-info a,
+    span {
+        font-size: 12px !important;
+    }
+}
+
 .header .topbar .contact-info i a,
 .header .topbar .contact-info i span {
     padding-left: 5px;
